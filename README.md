@@ -108,10 +108,15 @@ float marks;
 ```
 ## AIGORITHAM :
 1.Start
+
 2.Define a structure named student with members for storing student information, such as name (a character array), roll number (an integer), and marks (a floating-point number).
+
 3.Declare a variable of type student to represent a student's record.
+
 4.Prompt the user to enter student information (name, roll number, and marks) and store it in the student variable.
+
 5.Display the student information by accessing the members of the structure.
+
 6.End.
 ## PROGARM :
 ```
