@@ -3,7 +3,21 @@
 write a C program to find area of a circle & perimeter of a circle for the radius 35 using
 pointer
 ## AIGORITHAM :
-1.
+1.Start
+
+2.Declare a pointer variable for the radius and initialize it to 35.
+
+3.Create functions to calculate the area and perimeter of the circle:
+
+a. Calculate the area using the formula area = π * r * r, where π is approximately 3.14159.
+
+b. Calculate the perimeter (circumference) using the formula perimeter = 2 * π * r.
+
+4.Use pointers to calculate and store the area and perimeter.
+
+5.Print the calculated area and perimeter.
+
+6.End.
 ## PROGARM :
 ```
 # include <stdio.h>
@@ -26,7 +40,29 @@ Thus , The C program has been executed successfully.
 ## AIM :
 Write a C program to count total number of odd elements in the following array 33,55,302,231,250 using malloc()
 ## AIGORITHAM :
-1.
+1.Start
+
+2.Declare a pointer to an integer to represent the array.
+
+3.Declare a variable to store the number of elements (e.g., n).
+
+4.Prompt the user to enter the number of elements (n).
+
+5.Allocate memory for the array using malloc based on the number of elements (n).
+
+6.Read the elements of the array from the user and store them in the allocated memory.
+
+7.Initialize a variable oddCount to 0 to keep track of the count of odd elements.
+
+8.Loop through the elements of the array:
+a. Check if the current element is odd (element % 2 is not equal to 0).
+b. If it's odd, increment the oddCount by 1.
+
+9.Print the total count of odd elements (oddCount).
+
+10.Release the allocated memory using free.
+
+11.End.
 ## PROGARM :
 ```
 #include <stdio.h>
@@ -71,7 +107,12 @@ float marks;
 } ;
 ```
 ## AIGORITHAM :
-1.
+1.Start
+2.Define a structure named student with members for storing student information, such as name (a character array), roll number (an integer), and marks (a floating-point number).
+3.Declare a variable of type student to represent a student's record.
+4.Prompt the user to enter student information (name, roll number, and marks) and store it in the student variable.
+5.Display the student information by accessing the members of the structure.
+6.End.
 ## PROGARM :
 ```
 #include <stdio.h>
